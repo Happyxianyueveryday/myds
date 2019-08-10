@@ -12,8 +12,9 @@
 #### 6. HuffmanTree: 哈夫曼树
 #### 7. MultiTree: 多叉树
 #### 8. Forest: 森林
-#### 9. Graph: 无向图
-#### 10. DiGraph: 有向图
-#### 11. 排序
-#### 12. 
+#### 9. Sort: 排序
+#### 10. HashTable: 哈希表
+#### 11. Search: 查找
+#### 12. Graph: 无向图
+#### 13. DiGraph: 有向图
 
