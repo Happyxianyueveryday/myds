@@ -4,24 +4,26 @@
 
 第二次的实现相对于第一次的主要关注点在于各种数据结构的良好组织上。本项目中的数据结构组织如下（随时间更新）：
 
+### 目录（随时间更新）
+
 ```
 root/ 
-  List/ -- 链表抽象类
+  List/ -- 链表抽象类 √
     StaticList -- 静态链表
-    LinkedList -- 链表
-  Stack/ -- 栈抽象类（cpp抽象类即java接口）
-    ArrayStack -- 数组栈
-    LinkedStack -- 链表栈
-  Queue/ -- 队列抽象类
-    ArrayQueue -- 数组队列
-    LinkedQueue -- 链表队列
-  Tree/ -- 树
-    BinaryTree/ -- 二叉树
-      BSTree -- 二叉搜索树
+    LinkedList -- 链表 √
+  Stack/ -- 栈抽象类（cpp抽象类即java接口）√
+    ArrayStack -- 数组栈 √ 
+    LinkedStack -- 链表栈 √
+  Queue/ -- 队列抽象类 √ 
+    ArrayQueue -- 数组队列 √
+    LinkedQueue -- 链表队列 √
+  Tree/ -- 树 √
+    BinaryTree/ -- 二叉树 √
+      BSTree -- 二叉搜索树 √
       ThreadedTree/  -- 线索树抽象类
         PreThreadedTree -- 前序线索树
         InThreadedTree -- 中序线索树
-        PostOrderTree -- 中序线索树
+        PostThreadedTree -- 后序线索树
       HuffmanTree -- 哈夫曼树
       AVLTree -- 平衡二叉树
     MultiTree -- 多叉树
@@ -37,20 +39,4 @@ root/
   
         
 ```
-
-### 目录（随时间更新）
-
-#### 1. Linked-list: 单向链表 (8.9, √)
-#### 2. Stack: 栈 (8.10, √)
-#### 3. Queue: 队列 (8.10, √)
-#### 4. Tree: 二叉搜索树 (8.10, √)
-#### 5. ThreadedTree: 线索树 (以中序为例, 8.10, √)
-#### 6. HuffmanTree: 哈夫曼树
-#### 7. MultiTree: 多叉树
-#### 8. Forest: 森林
-#### 9. Sort: 排序
-#### 10. HashTable: 哈希表
-#### 11. Search: 查找
-#### 12. Graph: 无向图
-#### 13. DiGraph: 有向图
 
