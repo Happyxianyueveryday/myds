@@ -2,7 +2,7 @@
 
 数据结构二轮复习，秋招面试复习专用，快速复习实现基本数据结构。
 
-第二次的实现相对于第一次的主要关注点在于各种数据结构的良好组织上。本项目中的数据结构组织如下（随时间更新）：
+第二次的实现相对于第一次的主要关注点在于各种数据结构的良好组织上。本项目中的数据结构组织和继承链如下（随时间更新）：
 
 ### 目录（随时间更新）
 
@@ -11,7 +11,7 @@ root/
   List/ -- 链表抽象类 √
     StaticList -- 静态链表
     LinkedList -- 链表 √
-  Stack/ -- 栈抽象类（cpp抽象类即java接口）√
+  Stack/ -- 栈抽象类 √
     ArrayStack -- 数组栈 √ 
     LinkedStack -- 链表栈 √
   Queue/ -- 队列抽象类 √ 
@@ -25,12 +25,12 @@ root/
         InThreadedTree -- 中序线索树 √
         PostThreadedTree -- 后序线索树 √
       HuffmanTree -- 哈夫曼树 √
-      AVLTree -- 平衡二叉树
+      AVLTree -- 平衡二叉树 
       FailerTree -- 败者树
     MultiTree -- 多叉树
   Forest -- 森林
   Sort -- 排序 √
-  Search --查找
+  Search --查找 √
   Graph/ -- 图抽象类
     DiGraph/ -- 有向图
       DAG --有向无环图
