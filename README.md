@@ -9,7 +9,7 @@
 ```
 root/ 
   List/ -- 链表抽象类 √
-    StaticList -- 静态链表
+    StaticList -- 静态链表 √
     LinkedList -- 链表 √
   Stack/ -- 栈抽象类 √
     ArrayStack -- 数组栈 √ 
@@ -24,7 +24,7 @@ root/
         PreThreadedTree -- 前序线索树 
         InThreadedTree -- 中序线索树 √
         PostThreadedTree -- 后序线索树 
-      HuffmanTree -- 哈夫曼树 
+      HuffmanTree -- 哈夫曼树 √
       AVLTree -- 平衡二叉树 
       FailerTree -- 败者树
     MultiTree -- 多叉树 
