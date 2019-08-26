@@ -31,9 +31,9 @@ root/
   Forest -- 森林
   Sort -- 排序 √
   Search --查找 √
-  Graph/ -- 图抽象类 
-    DiGraph/ -- 有向图
-      DAG --有向无环图
+  Graph/ -- 图抽象类 √
+    DiGraph/ -- 有向图 
+      DAG --有向无环图 
     NdGraph -- 无向图 √
   HashSet/ -- 哈希表
     ArrayHashSet -- 基于开放定址法的哈希表
