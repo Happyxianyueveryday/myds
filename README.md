@@ -28,20 +28,20 @@ root/
         PreThreadedTree -- 前序线索树 
         InThreadedTree -- 中序线索树 √
         PostThreadedTree -- 后序线索树 
-      HuffmanTree -- 哈夫曼树 √
+      HuffmanTree -- 哈夫曼树 
       AVLTree -- 平衡二叉树 
       FailerTree -- 败者树
     MultiTree -- 多叉树 
   Forest -- 森林
   Sort -- 排序 √
   Search --查找 √
-  Graph/ -- 图抽象类 √
+  Graph/ -- 图抽象类 
     DiGraph/ -- 有向图 
       DAG --有向无环图 
-    NdGraph -- 无向图 √
-  HashSet/ -- 哈希集合
-    ArrayHashSet -- 基于开放定址法的哈希集合
-    ZipHashSet -- 基于拉链法的哈希集合
+    NdGraph -- 无向图 
+  HashSet/ -- 哈希集合 √
+    ArrayHashSet -- 基于开放定址法的哈希集合 √
+    ZipHashSet -- 基于拉链法的哈希集合 √
   HashMap/ -- 哈希映射
     ArrayHashMap -- 基于开放定址法的哈希映射
     ZipHashMap -- 基于拉链法的哈希映射
