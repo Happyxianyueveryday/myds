@@ -46,7 +46,7 @@ root/
     ArrayHashMap -- 基于开放定址法的哈希映射
     ZipHashMap -- 基于拉链法的哈希映射
   Heap -- 堆（优先队列）
-  SmartPointer -- 智能指针抽象类
+  SmartPointer/ -- 智能指针抽象类
     shared_ptr -- 共享智能指针
     unique_ptr -- 独享智能指针
     weak_ptr -- 弱指针
