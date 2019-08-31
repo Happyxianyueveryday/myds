@@ -39,13 +39,17 @@ root/
     DiGraph/ -- 有向图 
       DAG --有向无环图 
     NdGraph -- 无向图 
-  HashSet/ -- 哈希集合 √
+  HashSet/ -- 哈希集合抽象类 √
     ArrayHashSet -- 基于开放定址法的哈希集合 √
     ZipHashSet -- 基于拉链法的哈希集合 √
-  HashMap/ -- 哈希映射 
+  HashMap/ -- 哈希映射抽象类 
     ArrayHashMap -- 基于开放定址法的哈希映射
     ZipHashMap -- 基于拉链法的哈希映射
   Heap -- 堆（优先队列）
+  SmartPointer -- 智能指针抽象类
+    shared_ptr -- 共享智能指针
+    unique_ptr -- 独享智能指针
+    weak_ptr -- 弱指针
 ```
 
 ### 3. 修复记录
