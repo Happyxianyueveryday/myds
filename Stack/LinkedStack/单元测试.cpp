@@ -26,7 +26,7 @@ int main(void)
 	
 	cout<<sta2.top(val)<<endl;
 	cout<<val<<endl;
-	cout<<"----------------"<<endl;
+	cout<<"----------------"<<endl; 
 	
 	LinkedStack sta3(sta1);
 	sta3=sta2;
@@ -37,4 +37,13 @@ int main(void)
 		cout<<val<<endl;
 	}
 	cout<<"----------------"<<endl;
+	
+	LinkedStack sta4(move(sta2));
+	cout<<sta4.length()<<endl;
+	cout<<sta2.length()<<endl;
+	
+	LinkedStack sta5;
+	sta5=move(sta4);
+	cout<<sta5.length()<<endl;
+	cout<<sta4.length()<<endl; 
 }
