@@ -31,8 +31,7 @@ root/
       HuffmanTree -- 哈夫曼树 √
       AVLTree -- 平衡二叉树 
       FailerTree -- 败者树 
-    MultiTree -- 多叉树 
-  Forest -- 森林
+    MultiTree -- 多叉树
   Sort -- 排序 √
   Search --查找 √
   Graph/ -- 图抽象类 
@@ -40,14 +39,11 @@ root/
       DAG --有向无环图 
     NdGraph -- 无向图 
   HashSet/ -- 哈希集合抽象类 √
-    ArrayHashSet -- 基于开放定址法的哈希集合 √
+    ArrayHashSet -- 基于开放定址法的哈希表 √
     ZipHashSet -- 基于拉链法的哈希集合 √
-  HashMap/ -- 哈希映射抽象类 
-    ArrayHashMap -- 基于开放定址法的哈希映射
-    ZipHashMap -- 基于拉链法的哈希映射
   Heap -- 堆（优先队列）
-  SmartPointer/ -- 智能指针抽象类
-    shared_ptr -- 共享智能指针
-    unique_ptr -- 独享智能指针
-    weak_ptr -- 弱指针
+  SmartPointer/ -- 智能指针抽象类 √
+    shared_ptr -- 共享智能指针 √
+    unique_ptr -- 独享智能指针 √
+    weak_ptr -- 弱指针 √
 ```
