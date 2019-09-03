@@ -16,7 +16,7 @@ root/
   SmartPointer/ -- 智能指针
     shared_ptr -- 共享对象所有权的智能指针 √
     unique_ptr -- 独享对象所有权的智能指针 √
-    weak_ptr -- 弱指针（同时包含shared_ptr的标准实现版本） √
+    weak_ptr -- 无对象所有权的弱指针（同时包含shared_ptr的标准实现版本） √
 
 数据结构部分：
 root/ 
