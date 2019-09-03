@@ -33,19 +33,17 @@ root/
     BinaryTree/ -- 二叉树 √
       BSTree -- 二叉搜索树 √
       ThreadedTree/  -- 线索树抽象类 √
-        PreThreadedTree -- 前序线索树 
+        PreThreadedTree -- 前序线索树 √
         InThreadedTree -- 中序线索树 √
-        PostThreadedTree -- 后序线索树 
-      HuffmanTree -- 哈夫曼树 
-      AVLTree -- 平衡二叉树 
-      FailerTree -- 败者树 
-    MultiTree -- 多叉树
+        PostThreadedTree -- 后序线索树 √
+      HuffmanTree -- 哈夫曼树 √
+    MultiTree -- 多叉树 √
   Sort -- 排序 √
   Search --查找 √
-  Graph/ -- 图抽象类 
-    DiGraph/ -- 有向图 
-      DAG --有向无环图 
-    NdGraph -- 无向图 
+  Graph/ -- 图抽象类 √
+    DiGraph/ -- 有向图 √
+      DAG --有向无环图 √
+    NdGraph -- 无向图 √
   HashSet/ -- 哈希集合抽象类 √
     ArrayHashSet -- 基于开放定址法的哈希表 √
     ZipHashSet -- 基于拉链法的哈希集合 √
