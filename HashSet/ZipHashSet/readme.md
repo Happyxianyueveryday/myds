@@ -1,11 +1,11 @@
-# ZipHashSet: 拉链法哈希集合
+## ZipHashSet: 拉链法哈希集合
 
 ## 1. 代码文件
 ```
 · HashElement.h: 哈希表元素抽象基类，需要加入哈希表的元素继承该基类并重写其中的方法
 · TestElement.h: 继承HashElement抽象基类，本处测试中使用的哈希表元素类
 · HashSet.h: 哈希集合抽象基类
-·ZipHashSet.h: 继承HashSet.h，使用拉链法实现的哈希集合类
+· ZipHashSet.h: 继承HashSet.h，使用拉链法实现的哈希集合类
 ```
 
 ## 2. 更新日志
