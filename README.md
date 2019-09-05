@@ -10,6 +10,8 @@
 
 ### 2. 目录（随时间更新）
 
+...表示已完成但是待测试，√表示已经完成和测试。
+
 ```
 cpp特性部分：
 root/
@@ -36,16 +38,16 @@ root/
         PreThreadedTree -- 前序线索树 √
         InThreadedTree -- 中序线索树 √
         PostThreadedTree -- 后序线索树 √
-      HuffmanTree -- 哈夫曼树 √
-    MultiTree -- 多叉树 √
+      HuffmanTree -- 哈夫曼树 ...
+    MultiTree -- 多叉树 ...
   Sort -- 排序 √
   Search --查找 √
   Graph/ -- 图抽象类 √
     DiGraph/ -- 有向图 √
       DAG --有向无环图 √
     NdGraph -- 无向图 √
-  HashSet/ -- 哈希集合抽象类 √
+  HashSet/ -- 哈希表 √
     ArrayHashSet -- 基于开放定址法的哈希表 √
-    ZipHashSet -- 基于拉链法的哈希集合 √
-  Heap -- 堆（优先队列）
+    ZipHashSet -- 基于拉链法的哈希表 √
+  Heap -- 堆（优先队列）√
 ```
