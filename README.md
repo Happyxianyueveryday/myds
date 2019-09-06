@@ -38,8 +38,8 @@ root/
         PreThreadedTree -- 前序线索树 √
         InThreadedTree -- 中序线索树 √
         PostThreadedTree -- 后序线索树 √
-      HuffmanTree -- 哈夫曼树 ...
-    MultiTree -- 多叉树 ...
+      HuffmanTree -- 哈夫曼树  √
+    MultiTree -- 多叉树  √
   Sort -- 排序 √
   Search --查找 √
   Graph/ -- 图抽象类 √
