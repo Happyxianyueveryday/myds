@@ -21,6 +21,6 @@
 + 当哈希表中的元素数量size大于阈值threshold时，也即: size>capacity\*load_factor时，触发哈希扩容。
 
 具体的哈希扩容过程为：
-(1) 新建
+(1) 
 (2) 
 (3) 
