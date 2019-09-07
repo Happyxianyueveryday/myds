@@ -6,7 +6,7 @@ using namespace std;
 
 int main(void)
 {
-	Queue *que=ArrayQueue::ArrayQueueFactory(3);
+	Queue<int> *que=ArrayQueue<int>::ArrayQueueFactory(3);
 	
 	// 1. 测试入队功能
 	if(que->push(1))
@@ -110,7 +110,7 @@ int main(void)
 		else
 		cout<<"队列为空，出队失败"<<endl;
 	} 
-	
+	 
 	if(que->frontval(val))
 	{
 		cout<<"现在队首元素为: val = "<<val<<endl;
@@ -120,12 +120,12 @@ int main(void)
 		cout<<"队列为空，无法获取队首元素"<<endl;
 	}
 	
-	cout<<"--------------------------------------------"<<endl;
+	cout<<"--------------------------------------------"<<endl;       
 	
-	ArrayQueue que2(move(*dynamic_cast<ArrayQueue *> (que)));
+	ArrayQueue<int> que2(move(*dynamic_cast<ArrayQueue<int> *> (que)));
 	cout<<que2.length()<<endl;
 	cout<<que->length()<<endl;
-	ArrayQueue que3(move(*dynamic_cast<ArrayQueue *> (que)));
+	ArrayQueue<int> que3(move(*dynamic_cast<ArrayQueue<int> *> (que)));
 	que3=move(que2);
 	cout<<que3.length()<<endl;
 	cout<<que2.length()<<endl;
