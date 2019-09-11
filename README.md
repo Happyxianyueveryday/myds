@@ -4,8 +4,6 @@
 
 基于cpp实现的泛型数据结构和容器。
 
-本项目中实现的数据结构或者容器是线程不安全的，部分线程安全的容器实现可以参见个人的另一个项目：https://github.com/Happyxianyueveryday/myds-concurrency 。
-
 ### 2. 目录
 
 ```
@@ -45,5 +43,5 @@ root/
   HashSet/ -- 哈希表 √
     ArrayHashSet -- 基于开放定址法的哈希表 √
     ZipHashSet -- 基于拉链法的哈希表 √
-  Heap -- 堆（优先队列）√
+  Heap -- 堆（优先队列）
 ```
