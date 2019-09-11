@@ -4,6 +4,8 @@
 
 基于cpp实现的泛型数据结构和容器。
 
+其中实现的容器均是不安全的，部分线程安全的容器实现可见：https://github.com/Happyxianyueveryday/myds-concurrency
+
 ### 2. 目录
 
 ```
