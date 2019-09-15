@@ -4,7 +4,7 @@
 
 基于cpp实现的泛型数据结构和容器。
 
-其中实现的容器均是不安全的，部分线程安全的容器实现可见：https://github.com/Happyxianyueveryday/myds-concurrency
+其中实现的容器均是线程不安全的，部分线程安全的容器实现可见：https://github.com/Happyxianyueveryday/myds-concurrency
 
 ### 2. 目录
 
@@ -43,6 +43,7 @@ root/
       DAG --有向无环图 √
     NdGraph -- 无向图 √
   HashSet/ -- 哈希表 √
+    HashSet -- 标准哈希表（支持泛型，参考jdk1.7实现） √
     ArrayHashSet -- 基于开放定址法的哈希表 √
     ZipHashSet -- 基于拉链法的哈希表 √
   Heap -- 堆（优先队列）
