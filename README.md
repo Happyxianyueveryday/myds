@@ -43,7 +43,7 @@ root/
       DAG --有向无环图 √
     NdGraph -- 无向图 √
   HashSet/ -- 哈希表 √
-    HashSet -- 标准哈希表（支持泛型，参考jdk1.7实现） √
+    HashSet -- 标准哈希表（泛型，参考jdk1.7标准实现） √
     ArrayHashSet -- 基于开放定址法的哈希表 √
     ZipHashSet -- 基于拉链法的哈希表 √
   Heap -- 堆（优先队列）
