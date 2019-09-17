@@ -2,10 +2,9 @@
 
 ### 1. 源代码文件清单
 ```
-HashElement.h: 哈希元素抽象基类，需要进行哈希的话必须继承该抽象基类，并实现其中的必要方法
-TestElement.h: 用于测试的哈希元素基类
+Hashable.h: 哈希元素抽象基类，需要进行哈希的话必须继承该抽象基类，并实现其中的必要方法hashCode和equals
 HashSet.h: 哈希表基类
-ArrayHashSet.h: 基于开放定址法的哈希表
+ArrayHashSet.h: 基于开放定址法的泛型哈希表
 ```
 
 ### 2. 懒惰删除策略
