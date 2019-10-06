@@ -45,4 +45,7 @@ root/
   HashSet/ -- 哈希表 √
     ArrayHashSet -- 基于开放定址法的哈希表 √
     ZipHashSet -- 基于拉链法的哈希表 √
+  HashMap/ -- 哈希映射
+    ZipHashMap -- 基于拉链法的哈希表 √
+  
 ```
