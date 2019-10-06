@@ -42,10 +42,10 @@ root/
     DiGraph/ -- 有向图 √
       DAG --有向无环图 √
     NdGraph -- 无向图 √
-  HashSet/ -- 哈希表 √
-    ArrayHashSet -- 基于开放定址法的哈希表 √
-    ZipHashSet -- 基于拉链法的哈希表 √
-  HashMap/ -- 哈希映射
+  HashSet/ -- 哈希集合 √
+    ArrayHashSet -- 基于开放定址法的哈希集合 √
+    ZipHashSet -- 基于拉链法的哈希集合 √
+  HashMap/ -- 哈希映射/哈希表 √
     ZipHashMap -- 基于拉链法的哈希表 √
   
 ```
